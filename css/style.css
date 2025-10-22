@@ -1,0 +1,107 @@
+﻿p {
+    margin-bottom: .5rem;
+}
+
+em {
+    font-style: normal;
+    color: #4d4a4a;
+}
+
+/*第一個 連結按鈕*/
+a.btn:nth-of-type(1) {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/*版頭區塊*/
+.inner {
+    margin-top: 80px;
+}
+
+/*版頭*/
+.navbar-dark {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .6);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*組間距*/
+.row.g-4 {
+    margin-bottom: 20px;
+}
+
+.row.g-4:first-child {
+    margin-bottom: 0px;
+}
+
+/*自我介紹內文*/
+.custom-margin {
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+/*卡字型調整*/
+.card-body h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/*卡內文*/
+.blockquote {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.blockquote p {
+    margin-bottom: 1rem;
+}
+
+.card-body a {
+    margin-top: 0.5rem;
+}
+
+/*註解 span*/
+.card-text span {
+    margin-left: 5px;
+}
+
+/*標籤色塊*/
+blockquote span {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/*標題*/
+.p-5 h3.title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: -20px;
+    border: 0px solid blue;
+}
+
+.p-5 h3 span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+/*footer*/
+footer {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
